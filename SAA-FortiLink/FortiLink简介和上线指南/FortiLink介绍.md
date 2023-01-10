@@ -1,0 +1,5 @@
+# FortiLink介绍
+
+FortiLink是防火墙和被管理的交换机之间的通讯协议。
+Fortinet的私有协议，FortiGate基于FortiLink来管理FortiSwitch。
+FortiLink链路承载了FortiSwitch/FortiAP和FortiGate之间的通讯报文以及用户业务数据报文（FortiLink报文 + CAPWAP控制报文+ 真实业务流量）
