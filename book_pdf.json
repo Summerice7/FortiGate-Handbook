@@ -1,0 +1,93 @@
+{
+  "title": "FortiGate产品实施一本通 v7.0.0",
+  "description": "FortiGate产品实施一本通（适用FortiOS 7.0.X）",
+  "author": "Bing Bai",
+  "language": "zh-hans", 
+  "link": {
+     "sidebar": {
+         "HOME": "https://www.fortinet.com/cn"
+     }
+  },
+  "pdf": {
+    "margin": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "code overflow": 1 
+    }
+  },
+  "plugins": [
+      "-lunr", "-livereload", "-search", "search-pro",
+      "back-to-top-button",
+      "chapter-fold",
+      "expandable-chapters",
+      "copy-code-button",
+      "advanced-emoji",
+      "splitter",
+      "-sharing", "sharing-plus",
+      "tbfed-pagefooter",
+      "page-treeview",
+      "hide-element",
+      "insert-logo-link-website",
+      "auto-scroll-table"
+    ],
+  "pluginsConfig": {
+   "code": {
+   "copyButtons": true
+   },
+   "insert-logo-link-website":{
+    "url":"./fortinet-logo.svg",
+    "link": "https://www.fortinet.com/cn",
+    "target": "_blank",
+    "style": "max-width: 100%"
+},
+   "github": {
+       "url": "https://github.com/Cyndice"
+   },
+   "tbfed-pagefooter": {
+       "copyright":"Copyright &copy 2023 Fortinet",
+       "modify_label": "该文件修订时间：",
+       "modify_format": "YYYY-MM-DD HH:mm:ss"
+   },
+   "change_girls" : {
+       "time" : 10,
+       "urls" : [
+           "girlUrl1", "girlUrl2"
+       ]
+   },
+   "sharing": {
+       "douban": false,
+       "facebook": false,
+       "google": true,
+       "hatenaBookmark": false,
+       "instapaper": false,
+       "line": true,
+       "linkedin": true,
+       "messenger": false,
+       "pocket": false,
+       "qq": false,
+       "qzone": true,
+       "stumbleupon": false,
+       "twitter": false,
+       "viber": false,
+       "vk": false,
+       "weibo": true,
+       "whatsapp": false,
+       "all": [
+           "douban", "facebook", "google", "hatenaBookmark", 
+           "instapaper", "linkedin","twitter", "weibo", 
+           "messenger","qq", "qzone","viber","vk","weibo",
+           "pocket", "stumbleupon","whatsapp"
+         ]
+       },
+    "page-treeview": {
+        "copyright": "Copyright &#169; aleen42",
+        "minHeaderCount": "2",
+        "minHeaderDeep": "2"
+    },
+    "hide-element": {
+        "elements": [".gitbook-link"]
+    }
+  }
+}
