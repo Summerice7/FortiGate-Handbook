@@ -1,0 +1,2 @@
+# FortiManger ADOM
+
